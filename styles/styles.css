@@ -52,11 +52,18 @@ header {
 
 /* left-side-area 
 ------------------*/
+
+
+
 .middle-area {
+
     display: flex;
+
+
 }
 
 .left-side-area {
+
     width: 20%;
     border: 1px solid black;
     display: flex;
@@ -91,6 +98,65 @@ header {
 /* right-side-area 
 ----------------------*/
 .right-side-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+
+
+}
+
+.right-side-area {
     width: 80%;
+
+}
+
+.grid-item-apply {
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 5px;
+}
+
+.grid-item-apply img {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.grid-item-apply a {
+    text-decoration: none;
     border: 1px solid black;
+    margin-left: 10px;
+}
+
+.line-adjust {
+    margin-left: 10px;
+}
+
+.last-item {
+    display: flex;
+}
+
+.last-item1 {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.last-item2 {
+    display: flex;
+
+    align-items: center;
+    margin-left: 30px;
+
+
+}
+
+.last-item1 p {
+    padding-left: 10px;
+}
+
+.last-item2 p {
+    padding-left: 10px;
 }
