@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+
+/* header Area design
+---------------------- */
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+    width: 1000px;
+    margin: 0 auto;
+
 }
 
 header {
     background-color: black;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
 }
 
 .header-area {
@@ -28,6 +35,11 @@ header {
 
 .header-write-part a {
     background-image: linear-gradient(orange, red);
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.header-image img {
+    width: 100%;
 }
