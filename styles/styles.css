@@ -58,6 +58,7 @@ header {
 .middle-area {
 
     display: flex;
+    margin-bottom: 100px;
 
 
 }
@@ -159,4 +160,39 @@ header {
 
 .last-item2 p {
     padding-left: 10px;
+}
+
+/* footer area
+----------------- */
+
+footer {
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+footer h1 {
+    color: aliceblue;
+    padding-top: 20px;
+    text-align: center;
+}
+
+hr {
+
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.last-area {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.last-area a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 10px;
+
+
 }
