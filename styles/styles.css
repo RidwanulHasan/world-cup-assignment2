@@ -1,3 +1,6 @@
+/* font added 
+------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
@@ -42,4 +45,52 @@ header {
 
 .header-image img {
     width: 100%;
+}
+
+/* middle area design
+-------------------------- */
+
+/* left-side-area 
+------------------*/
+.middle-area {
+    display: flex;
+}
+
+.left-side-area {
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    background-color: black;
+    border-radius: 5px;
+
+
+}
+
+
+.left-side-area a {
+
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 4px 8px;
+    border-radius: 5px;
+
+}
+
+#anchor {
+    background: red;
+}
+
+
+/* right-side-area 
+----------------------*/
+.right-side-area {
+    width: 80%;
+    border: 1px solid black;
 }
