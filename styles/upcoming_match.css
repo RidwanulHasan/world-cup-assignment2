@@ -1,15 +1,10 @@
-/* font added 
-------------------------*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-
-/* header Area design
----------------------- */
 body {
     font-family: 'Poppins', sans-serif;
     width: 1000px;
     margin: 0 auto;
+
 
 }
 
@@ -47,17 +42,10 @@ header {
     width: 100%;
 }
 
-/* middle area design
--------------------------- */
-
-/* left-side-area 
-------------------*/
-
-
-
 .middle-area {
 
     display: flex;
+    width: 100%;
     margin-bottom: 100px;
 
 
@@ -95,75 +83,58 @@ header {
     background: red;
 }
 
-
-/* right-side-area 
-----------------------*/
 .right-side-area {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 10px;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
-
-
-}
-
-.right-side-area {
     width: 80%;
 
+
 }
 
+.right-side-area img {
+    width: 100%;
+}
+
+
+
 .grid-item-apply {
+    display: flex;
+}
+
+.paragraph p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.writing-part h3,
+p {
+    padding-left: 33px;
+}
+
+.writing-part p {
+    color: darkgrey;
+}
+
+.right-way {
     box-shadow: 8px 8px 16px gray;
     border-radius: 5px;
 }
 
-.grid-item-apply img {
-    margin-bottom: 10px;
-    width: 100%;
+.grid-item-apply {
+    padding-left: 15px;
+    padding-top: 15px
+}
+
+.france-flag img {
     border-radius: 5px;
 }
 
-.grid-item-apply a {
-    text-decoration: none;
-    border: 1px solid black;
-    margin-left: 10px;
+.german-flag img {
+    border-radius: 5px;
 }
-
-.line-adjust {
-    margin-left: 10px;
-}
-
-.last-item {
-    display: flex;
-}
-
-.last-item1 {
-    display: flex;
-    align-items: center;
-
-
-}
-
-.last-item2 {
-    display: flex;
-
-    align-items: center;
-    margin-left: 30px;
-
-
-}
-
-.last-item1 p {
-    padding-left: 10px;
-}
-
-.last-item2 p {
-    padding-left: 10px;
-}
-
-/* footer area
------------------ */
 
 footer {
     background-color: black;
