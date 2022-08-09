@@ -18,7 +18,7 @@ header {
 .header-area {
     display: flex;
     align-items: center;
-    height: 450px;
+    height: 650px;
 }
 
 .header-write-part {
@@ -109,8 +109,8 @@ header {
     padding-right: 10px;
 }
 
-.writing-part h3,
-p {
+.writing-part p,
+h3 {
     padding-left: 33px;
 }
 
@@ -156,7 +156,8 @@ hr {
 }
 
 .last-area {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding-bottom: 30px;
 }
 
@@ -164,4 +165,36 @@ hr {
     text-decoration: none;
     color: aliceblue;
     padding-left: 10px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .header-area {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .right-side-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .last-area {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .header-area {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .right-side-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .last-area {
+        flex-direction: column;
+        align-items: center;
+    }
 }
